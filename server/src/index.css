@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.products {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.products label {
+  text-align: center;
+  color: black;
+  display: block;
+}
+.products h2 {
+  font-size: 20px;
+  color: #1f98f4;
+  margin-bottom: 30px;
+}
+.products input, .products textarea, .products select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.products button {
+  background: #1f98f4;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
